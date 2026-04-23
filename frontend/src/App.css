@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  padding: 10px;
+  background: #eee;
+}
+
+.ai-card {
+  margin-top: 15px;
+  padding: 10px;
+  background: #e6f7ff;
+}
