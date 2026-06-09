@@ -9,6 +9,7 @@ import EmpLogin from "./components/EmpLogin";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import ManagerRegister from "./pages/ManagerRegister";
 import EmployeeList from "./pages/EmployeeList";
+import EmployeeRankingComparison from "./pages/EmployeeRankingComparison";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/EmployeeDashboard" element={<EmployeeDashboard />} />     
         <Route path="/register-manager" element={<ManagerRegister />} />
         <Route path="/view-employees" element={<EmployeeList />} />
+        <Route path="/employee-rankings" element={<EmployeeRankingComparison />} />
       </Routes>
     </BrowserRouter>
   );
